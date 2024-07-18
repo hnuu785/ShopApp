@@ -28,6 +28,7 @@
 					// Redirect to a different page if needed
 					localStorage.setItem('myToken', response.data.token);
 					localStorage.setItem('myName', username);
+					localStorage.setItem('myPassword', password);
 					router.push('/');
 					// 넉스트 navigateTo 이런 함수가 router 말고도 있음.
 				}

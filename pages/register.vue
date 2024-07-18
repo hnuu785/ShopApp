@@ -15,6 +15,8 @@
 	import { useRouter } from 'vue-router';
 	import axios from 'axios';
 	
+	//const axios = require('axios').default;
+	
 	const username = ref('');
 	const nickname = ref('');
 	const email = ref('');
@@ -27,7 +29,7 @@
 					username: username.value,
 					nickname: nickname.value,
 					email: email.value,
-					password: password.value
+					password: password.value,
 				});
 				if (response.data.success) {
 					router.push('/');

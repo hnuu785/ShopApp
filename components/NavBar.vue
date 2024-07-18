@@ -4,6 +4,8 @@
 			<li><NuxtLink to="/">Home</NuxtLink></li>
 			<li><NuxtLink to="/register">Register</NuxtLink></li>
 			<li><NuxtLink to="/login">Login</NuxtLink></li>
+			<li><NuxtLink to="/mypage">My page</NuxtLink></li>
+			<li><NuxtLink to="/shopping">Shopping</NuxtLink></li>
 		</ul>
 	</nav>
 </template>
